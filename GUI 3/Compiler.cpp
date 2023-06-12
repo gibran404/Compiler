@@ -437,6 +437,18 @@ Momin_tokenization Get_Momin()
 	}
 }
 
+void print_tokens()
+{
+	output = "";
+	momin.seekg(0);
+	Momin_tokenization token;
+	while (!momin.eof())
+	{
+		token = Get_Momin();
+	}
+	momin.clear();
+}
+
 void print_error()
 {
 	output = "";
