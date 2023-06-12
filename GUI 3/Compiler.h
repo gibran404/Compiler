@@ -9,7 +9,6 @@ void print_tokens();
 
 
 namespace $safeprojectname$ {
-
 	using namespace System;
 	using namespace System::ComponentModel;
 	using namespace System::Collections;
